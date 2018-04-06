@@ -10,7 +10,6 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -26,7 +25,6 @@ public class FXMLDocumentController implements Initializable {
     private TextField textField_AgregaOperacion;
     private ComboBox comboBox_Fruta;
     private ComboBox comboBox_Operacion;
-    private Button operacion;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
