@@ -3,5 +3,20 @@ package laboratorio1;
     
   public enum Frutas {
       
-    manzana, pera, limon, melon, naranja;
+    MANZANA("Manzana"), 
+    PERA("Pera"), 
+    LIMON("Limón"), 
+    MELON("Melón"), 
+    NARANJA("Naranja");
+    
+    private String fruta;
+    private Frutas(String tipo){
+        
+        fruta = tipo;
+    }
+    public String getTipoFruta(){
+        
+        return fruta;
+    }
+    
 }

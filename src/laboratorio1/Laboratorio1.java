@@ -27,7 +27,10 @@ public class Laboratorio1 extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        launch(args);
+        //launch(args);
+        for(Frutas fruta : Frutas.values()){
+            System.out.printf("%s\n", fruta, fruta.getTipoFruta());
+        }
     }
     
 }

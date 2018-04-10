@@ -27,15 +27,17 @@ public class FXMLDocumentController implements Initializable {
     private ComboBox comboBox_Operacion;
     
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
+    public void initialize( URL url, ResourceBundle rb) {
         // TODO
-        Frutas manzana = Frutas.manzana;
-        Frutas pera = Frutas.pera;
-        Frutas limon = Frutas.limon;
-        Frutas melon = Frutas.melon;
-        Frutas naranja = Frutas.naranja;
+        Frutas manzana = Frutas.MANZANA;
+        Frutas pera = Frutas.PERA;
+        Frutas limon = Frutas.LIMON;
+        Frutas melon = Frutas.MELON;
+        Frutas naranja = Frutas.NARANJA;
         
-     
+     for (Frutas fruta : Frutas.values()){
+         System.out.printf("", fruta, fruta.getTipoFruta());
+     }
         
     }    
     
