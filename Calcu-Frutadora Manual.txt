@@ -1,0 +1,10 @@
+Manual de Calcu-Frutadora
+
+La Calcu-Frutadora se encarga de sumar entre diferentes tipos
+de frutas como lo son las peras, manzanas, limones, naranjas y
+melones. El programa muestra dos casillas de opciones, donde 
+el usuario debe seleccionar una fruta, ya sea la misma o di-
+ferentes entre las dos casillas y darle click al botón de 
+"Sumar". Si desea realizar otra suma, solo debe cambiar
+la casilla de fruta de abajo y volver a darle click a 
+Sumar.
