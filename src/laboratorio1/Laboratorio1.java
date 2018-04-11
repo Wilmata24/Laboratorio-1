@@ -15,6 +15,7 @@ public class Laboratorio1 extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
+        
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
@@ -23,14 +24,8 @@ public class Laboratorio1 extends Application {
         stage.show();
     }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        //launch(args);
-        for(Frutas fruta : Frutas.values()){
-            System.out.printf("%s\n", fruta, fruta.getTipoFruta());
-        }
+        launch(args);
     }
     
 }
